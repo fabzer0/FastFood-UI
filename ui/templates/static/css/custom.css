@@ -199,6 +199,7 @@ body {
     height: 1100px;
     width: 100%;
     font-family: 'Overlock', cursive;
+    position: absolute;
 }
 
 
@@ -212,6 +213,10 @@ body {
     background-size: cover;
     opacity: 0.9;
     filter: alpha(opacity=30); /* For IE8 and earlier */
+    position: relative;
+    overflow: hidden;
+    top: 0;
+
 }
 
 .sidebar-directions {
@@ -680,5 +685,110 @@ body {
   position: relative;
   top: 0;
   color: black;
+}
 
+.all-orders {
+  height: 920px;
+  width: 1205px;
+  background-color: black;
+  margin-top: 30px;
+  margin-left: 10%;
+  color: white
+}
+.header {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.header p {
+  font-size: 20px;
+}
+.place-order {
+  height: 800px;
+  width: 1205px;
+}
+
+.place-order .col1 {
+  height: 800px;
+  width: 400px;
+  float: left;
+  overflow: hidden;
+  border-right: 1px solid gray;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+.place-order .col2 {
+  height: 800px;
+  width: 400px;
+  float: left;
+  overflow: hidden;
+  border-right: 1px solid gray;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+.place-order .col3 {
+  height: 800px;
+  width: 400px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+
+}
+
+.total-price {
+  height: 70px;
+  width: 1205px;
+}
+
+.total-price p {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.meal-a {
+  height: 200px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+.meal-a-img {
+  height: 130px;
+  width: 40%;
+  margin-top: 35px;
+  margin-left: 10px;
+  float: left;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.meal-a-cred {
+  height: 130px;
+  width: 56%;
+  margin-top: 35px;
+  float: left;
+  overflow: hidden;
+  color: white;
+}
+
+.meal-a-cred p {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.meal-a-img img {
+  height: 130px;
+  width: 100%;
 }
