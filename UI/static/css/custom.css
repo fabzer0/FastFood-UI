@@ -869,7 +869,7 @@ body {
 }
 
 .navbar #logout-btn {
-  margin-left: 10px;
+  margin-left: 600px;
 }
 
 .more-creds {
@@ -946,37 +946,24 @@ body {
 }
 
 .more-creds .first {
-  height: 150px;
+  height: 50px;
   width: 300px;
   margin-left: 40px;
   margin-top: 0px;
 
 }
 
-.more-creds .first #img {
-  height: 60px;
-  width: 60px;
-  margin-left: 35%;
-  background-image: url("img/fab.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 10px;
-
+.more-creds .first button {
+  margin-left: 90px;
+  margin-top: 20px;
 }
 
-.more-creds .first p {
-  margin-left: 105px;
-}
 
-.more-creds .last {
-  height: 150px;
+.more-creds #last {
+  height: 350px;
   width: 300px;
   margin-left: 40px;
   margin-top: 30px;
+  display: none;
 
-}
-
-.more-creds .last p {
-  margin-left: 105px;
 }

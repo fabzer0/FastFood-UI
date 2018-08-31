@@ -14,11 +14,9 @@
         <div class="navbar">
           <div>
             <span id="span-1">FastFood-<strong>Fast</strong></span>
-            <span id="span-2"><a href="">Home</a></span>
+            <span id="span-2"><a href="home-page.html">Home</a></span>
             <span id="span-3"><a href="">Notifications</a></span>
-            <span><input type="text" value="Search"></span>
             <span id="span-4"><img src="static/img/fab.jpeg" alt=""></span>
-            <span id="history-btn"><button>View History</button></span>
             <span id="logout-btn"><button>Logout</button></span>
           </div>
         </div>
@@ -53,15 +51,23 @@
             </div>
             <div class="right">
               <div class="first">
-                <div id="img">
-
-                </div>
-                <p><span>Fabisch A.</span><br><span>Kenya</span></p>
+                <button onclick="openHistory()" type="button" name="button">View History</button>
               </div>
-              <div class="last">
-                <p><span>MOBILE</span><br><span>+254-704-6789-34</span>
-                  <br><br><span>EMAIL</span><BR><span>fabischapeli97@gmail.com</span>
-                </p>
+              <div id="last">
+                <ul>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                  <li>Chapati with Kuku.  3rd.Aug.2018</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -70,5 +76,12 @@
             <p>Andela Kenya Inc.</p>
         </div>
     </div>
+    <script type="text/javascript">
+
+      function openHistory() {
+        var view = document.getElementById('last');
+        view.style.display = 'block';
+      }
+    </script>
 </body>
 </html>
