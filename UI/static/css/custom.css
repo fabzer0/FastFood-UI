@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-signing {
+    height: 785px;
+    width: 100%;
+    font-family: 'Overlock', cursive;
+}
+
+.navbar {
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+}
+
+.navbar #span-1 {
+    margin-top: 0;
+    padding-left: 300px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+.navbar #span-2 a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar #span-3 a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar #span-2 a:hover {
+    text-decoration: underline;
+}
+
+.navbar #span-3:hover {
+    text-decoration: underline;
+}
+
+.navbar #span-4 img {
+    width: 20px;
+    height: 20px;
+    margin-left: 150px;
+}
+
+.navbar #span-5 button {
+    margin-left: 200px;
+}
+
+.navbar #span-6 button {
+    margin-left: 20px;
+}
+
+.navbar #span-5 button {
+    background-color: green;
+    border: none;
+    height: 30px;
+    width: 70px;
+}
+
+.navbar #span-5 button a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar #span-6 button {
+    background-color: blue;
+    border: none;
+    height: 30px;
+    width: 70px;
+}
+
+.navbar #span-6 button a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar div {
+    margin-top: 10px;
+}
+
+.navbar span input {
+    width: 300px;
+    margin-left: 40px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.signing-form {
+    height: 685px;
+}
+
+.signup {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 7px 7px 7px 7px;
+    color: white;
+}
+
+.signup input {
+    background-color: grey;
+    color: black;
+    width: 60%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.signup button {
+    background-color: green;
+    height: 30px;
+    width: 60%;
+    border-style: none;
+    margin-left: 20%;
+}
+
+.signup #one {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.signup #two {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.signup #three p {
+  margin-left: 20%;
+}
+
+.signin button {
+    background-color: green;
+    height: 30px;
+    width: 60%;
+    border-style: none;
+    margin-left: 20%;
+}
+
+.signin {
+    height: 400px;
+    width: 500px;
+    background-color: black;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 7px 7px 7px 7px;
+    color: white;
+}
+
+.signin input {
+    background-color: grey;
+    color: black;
+    width: 60%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.signin #one {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.signin #two {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.signin #three p {
+  margin-left: 20%;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    color: white;
+    text-align: center;
+}
