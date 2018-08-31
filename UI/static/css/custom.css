@@ -7,6 +7,7 @@ body {
     height: 785px;
     width: 100%;
     font-family: 'Overlock', cursive;
+
 }
 
 .navbar {
@@ -102,6 +103,7 @@ body {
 .signup {
     height: 500px;
     width: 500px;
+
 }
 
 .signup input {
@@ -147,6 +149,7 @@ body {
 .signin {
     height: 400px;
     width: 500px;
+
 }
 
 .signin input {
