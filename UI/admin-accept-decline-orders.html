@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>All Orders</title>
+    <title>Admin Accept and Decline Orders</title>
     <link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <link rel="stylesheet" href="static/css/custom.css">
@@ -25,7 +26,7 @@
         <div class="bg-image">
           <div class="all-orders">
             <div class="header">
-              <p>Todays Orders</p>
+              <p>Meals Available</p>
             </div>
             <div class="place-order">
               <div class="col1">
@@ -35,7 +36,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Chapati & Kuku</span>
-                      <br><span>Ksh 350.</span></p>
+                      <br><span>Ksh 350.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
                 <div class="meal-a">
@@ -44,7 +46,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Drinks</span>
-                      <br><span>Ksh 300.</span></p>
+                      <br><span>Ksh 300.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
                 <div class="meal-a">
@@ -53,7 +56,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Fries & Salad</span>
-                      <br><span>Ksh 150.</span></p>
+                      <br><span>Ksh 150.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
                 <div class="meal-a">
@@ -62,7 +66,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Mandazi & Tea</span>
-                      <br><span>Ksh 100</span></p>
+                      <br><span>Ksh 100</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
               </div>
@@ -73,7 +78,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Pepperoni Pizza</span>
-                      <br><span>Ksh 850.</span></p>
+                      <br><span>Ksh 850.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
                 <div class="meal-a">
@@ -82,7 +88,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Coffee</span>
-                      <br><span>Ksh 350.</span></p>
+                      <br><span>Ksh 350.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
                 <div class="meal-a">
@@ -91,7 +98,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Strong Tea</span>
-                      <br><span>Ksh 150.</span></p>
+                      <br><span>Ksh 150.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
                 <div class="meal-a">
@@ -100,7 +108,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Ugali & Fish</span>
-                      <br><span>Ksh 320.</span></p>
+                      <br><span>Ksh 320.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
               </div>
@@ -111,7 +120,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Milk Tea</span>
-                      <br><span>Ksh 150.</span></p>
+                      <br><span>Ksh 150.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
                 <div class="meal-a">
@@ -120,7 +130,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Rice & Pork</span>
-                      <br><span>Ksh 250.</span></p>
+                      <br><span>Ksh 250.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
                 <div class="meal-a">
@@ -129,7 +140,8 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Ugali & Omena</span>
-                      <br><span>Ksh 80.</span></p>
+                      <br><span>Ksh 80.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
                 <div class="meal-a">
@@ -138,13 +150,14 @@
                   </div>
                   <div class="meal-a-cred">
                     <p><span>Supaghetti & Beef</span>
-                      <br><span>Ksh 250.</span></p>
+                      <br><span>Ksh 250.</span>
+                      <br><br><span id="accept"><button>Accept</button></span><span id="decline"><button>Decline</button></span></p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="total-price">
-              <p>Total amount collected & still on count: Ksh 4900</p>
+              <p></p>
             </div>
           </div>
         </div>
