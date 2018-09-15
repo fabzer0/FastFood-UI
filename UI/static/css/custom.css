@@ -56,7 +56,7 @@ body
 }
 
 .navbar #span-5 button {
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .navbar #span-6 button {
@@ -201,7 +201,8 @@ body
     height: 1100px;
     width: 100%;
     font-family: 'Overlock', cursive;
-    position: absolute;
+    position: relative;
+    display: inline-block;
 }
 
 
