@@ -1,7 +1,9 @@
-body
+html, body
 {
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .container-signing {
@@ -16,90 +18,75 @@ body
     overflow: hidden;
     position: relative;
     top: 0;
-    height: 50px;
+    height: 80px;
     width: 100%;
     background-color: grey;
 }
 
-.navbar #span-1 {
-    margin-top: 0;
-    padding-left: 150px;
-    padding-top: 10px;
-    font-size: 20px;
+.navbar h2 {
+  margin-left: 20%;
+  float: left;
+  width: 30%
+}
+
+.navbar ul {
+  float: left;
+  list-style-type: none;
+  overflow: hidden;
+  margin-top: 25px;
+  width: 50%;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.navbar li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+.navbar button {
+  margin-top: 25px;
+  border-radius: 30px;
+  height: 30px;
+  background-color: lightblue;
 
 }
 
-.navbar #span-2 a {
-    margin-left: 40px;
-    text-decoration: none;
-    color: black;
+.navbar #button1 {
+  margin-left: 30%;
+  width: 90px;
 }
 
-.navbar #span-3 a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: black;
+.navbar #button2 {
+  margin-left: 10px;
+  width: 90px;
 }
 
-.navbar #span-2 a:hover {
-    text-decoration: underline;
+.navbar #button1:hover {
+  background-color: blue;
 }
 
-.navbar #span-3:hover {
-    text-decoration: underline;
+.navbar button a {
+  text-decoration: none;
+  color: black;
 }
 
-.navbar #span-4 img {
-    width: 20px;
-    height: 20px;
-    margin-left: 150px;
+
+.navbar #button2:hover {
+  background-color: blue;
 }
 
-.navbar #span-5 button {
-    margin-left: 70px;
-}
-
-.navbar #span-6 button {
-    margin-left: 20px;
-}
-
-.navbar #span-5 button {
-    background-color: green;
-    border: none;
-    height: 30px;
-    width: 70px;
-}
-
-.navbar #span-5 button a {
-    text-decoration: none;
-    color: black;
-}
-
-.navbar #span-6 button {
-    background-color: blue;
-    border: none;
-    height: 30px;
-    width: 70px;
-}
-
-.navbar #span-6 button a {
-    text-decoration: none;
-    color: black;
-}
-
-.navbar div {
-    margin-top: 10px;
-}
-
-.navbar span input {
-    width: 300px;
-    margin-left: 40px;
-    height: 25px;
-    padding-left: 10px;
-}
 
 .signing-form {
-    height: 685px;
+    height: 655px;
 }
 
 .signup {
@@ -198,10 +185,12 @@ body
 }
 
 .container {
-    height: 1100px;
+    height: 100%;
+    max-height: 100%;
     width: 100%;
+    max-width: 100%;
     font-family: 'Overlock', cursive;
-    position: absolute;
+    position: relative;
 }
 
 
@@ -212,13 +201,12 @@ body
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7))
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     opacity: 0.9;
     filter: alpha(opacity=30); /* For IE8 and earlier */
     position: relative;
     overflow: hidden;
     top: 0;
-
 }
 
 .sidebar-directions {
@@ -254,24 +242,23 @@ body
 
 .inner-right-dir .my-name {
     height: 140px;
-    margin-left: 50px;
-    margin-top: 0;
-    width: 200px;
+    margin: 0;
+    width: 100%;
     border-bottom: 1px solid grey;
 }
 
 .my-name h1 {
-    margin-left: 30px;
+    text-align: center;
     padding-top: 40px;
     font-family: 'Great Vibes', cursive;
 }
 
 .inner-right-dir .welcome {
     height: 380px;
-    margin-left: 20px;
+    margin: 0;
     position: relative;
     top: 0;
-    width: 260px;
+    width: 100%;
     border-bottom: 1px solid grey;
     overflow: hidden;
     position: relative;
@@ -282,10 +269,12 @@ body
 .welcome h3 {
     text-align: center;
 
+
 }
 
-.welcome p{
-    text-align: center
+.welcome p {
+    text-align: center;
+
 }
 
 .welcome input {
@@ -560,6 +549,7 @@ body
     overflow: hidden;
     position: relative;
     top: 0;
+
 }
 
 .order-number {
@@ -703,7 +693,7 @@ body
 
 .all-orders {
   height: 920px;
-  width: 1205px;
+  width: 80%;
   background-color: black;
   margin-top: 30px;
   margin-left: 10%;
