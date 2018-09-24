@@ -1,10 +1,8 @@
-##This is a Fast Food online platform to order food from a restaurant
+# This is a Fast Food online platform to order food from a restaurant
 
+![alt text](https://raw.githubusercontent.com/fabischolasi/fast-food-fast/develop/UI/static/css/img/pizza.jpg)
 
-![Home Image](https://raw.github.com/fabischolasi/fast-foof-fast/develop/UI/static/css/img/pizza.jpg)
-
-
-##About Fast-Food-Fast
+## About Fast-Food-Fast
 
 This is a site that enable users to book meals online. It has two type of users, the normal users who are not admins and the admins. Users should be able to create an account and log in. After beign authenticated, they can see the menu for a specific day, select an option out of the menu, change their order choice, see their order history and get notifications when the menu for the day has been set. Admin manages meal options in the website and should be able to setup menu for a specific day by selecting from the meal options available on the system. Admins should be able to see the orders made by the user, should be able to see amount of money made by end of day, should be able to see order history.
 
