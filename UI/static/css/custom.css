@@ -7,7 +7,7 @@ html, body
 }
 
 .container-signing {
-    height: 833px;
+    height: 700px;
     width: 100%;
     font-family: 'Overlock', cursive;
     background-color: black;
@@ -86,7 +86,7 @@ html, body
 
 
 .signing-form {
-    height: 655px;
+    height: 525px;
 }
 
 .signup {
@@ -171,6 +171,17 @@ html, body
 
 .signin #three p {
   margin-left: 20%;
+}
+
+.myfooter{
+  height: 50px;
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  color: white;
+  text-align: center;
 }
 
 .footer {
@@ -444,6 +455,10 @@ html, body
     text-decoration: none;
     display: block;
     text-align: left;
+}
+
+#to-menu {
+  background-color: blue;
 }
 
 .dropdown-content a:hover {
@@ -813,6 +828,13 @@ html, body
   border: none;
 }
 
+.meal-a-cred #menu button {
+  background-color: blue;
+  height: 20px;
+  border: none;
+  margin-left: 10px;
+}
+
 .user-profile {
     height: 1000px;
     width: 100%;
@@ -822,6 +844,10 @@ html, body
     top: 0;
     border-bottom: 1px solid grey;
 
+}
+
+#add-to-cart button {
+  margin-top: 10px;
 }
 
 .prof {
